@@ -5,14 +5,14 @@
 
 
 .carelem{
-    width:24%;
-    display:inline-block;
-    border:6px solid black;
+	width:24%;
+	display:inline-block;
+	border:6px solid black;
 }
 .carname {
-    text-align: center;
-    font-size: 14px;
-    text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
 }
 .detali {
   display: inline-block;
@@ -34,12 +34,14 @@
   background: #637A7C;
 }
 .carelem:hover{
-    border:6px solid #778D8F;
+	border:6px solid #778D8F;
 }
 .cars {
-    padding-left: 5%;
-    padding-right: 2%;
+	padding-left: 5%;
+	padding-right: 2%;
 }
 .carphoto{
-    text-align: center;
+	text-align: center;
+	width: 100% !important;
+	heigth: 100% !important;
 }
