@@ -1,0 +1,28 @@
+<h1><%= @photo.name %></h1>
+<p><%= image_tag(@photo.photo, width: 400, height: 225) %></p>
+<h1><%= @photo.text %></h1>
+
+
+
+
+<hr>
+<% @comments.each do |comment| %>
+<p> User <b style="color:#0489B1"><%= comment.user.nickname %></b></p>
+<p><%= comment.text %></p>
+<p>Create at: <%= comment.created_at%>
+</p>
+<hr>
+<% end %>
+
+<%= form_for :postcomment, url: photo_postcomments_path(photo_id: @photo.id) do |f| %>
+<% if flash[:notice] %>
+<div class="notice"><%= flash[:notice] %></div>
+<% end %>
+
+<p><%= f.label "Write comment" %></p>
+<%= f.text_area :text, cols: 20, rows: 5 %><br />
+
+<p><%= f.submit "Send"%></p>
+
+<% end %>
+

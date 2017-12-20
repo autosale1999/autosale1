@@ -1,7 +1,9 @@
 class PhotosController < ApplicationController
   before_action :authenticate_user!
+  before_action :set_photo, only: [:edit, :update, :destroy, :show]
 
   def show
+    @comments = Postcomment.where(photo_id: @photo.id)
   end
 
   def index

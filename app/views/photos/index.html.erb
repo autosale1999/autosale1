@@ -3,7 +3,7 @@
 	<div class="carelem">
 	<p><%= image_tag(photo.photo_url, :class => "carphoto")%></p>
 	<p class="carname"><b><%= photo.category.name %></b></p>
-	<p><center><%= link_to photo.name,  post_index_path(photo.id), :class => "detali"%></center></p>
+	<p><center><%= link_to photo.name,  photo_path(photo.id), :class => "detali"%></center></p>
 	</div>
 <% end %>
 </div>
