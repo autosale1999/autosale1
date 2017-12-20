@@ -3,45 +3,87 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
+body{
+		background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png");
+		background-repeat: repeat;
+}
+h1 {
+		font-family: 'Merriweather', serif;
+		font-size: 64px !important;
+		letter-spacing: 1px;
+		width: 100%;
+		position: relative;
+		display: inline-block;
+		color: #2F4F4F !important;
+}
+.d7 h1 {
+		text-align: center;
+		padding-bottom: 10px;
+}
+.d7 h1:before {
+		content: "";
+		position: absolute;
+		bottom: -2px;
+		left: 50%;
+		margin-left: -25%;
+		width: 50%;
+		height: 6px;
+		background: #FFD700;
+}
+.d7 h1:after {
+		content: "";
+		position: absolute;
+		bottom: -15px;
+		left: 50%;
+		margin-left: -15%;
+		width: 30%;
+		height: 6px;
+		background: #FFD700;
+}
 .carelem{
-	width:24%;
-	display:inline-block;
-	border:6px solid black;
+		width:24%;
+		display:inline-block;
+		border:6px solid black;
+		border-radius: 15px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		background-image: url("https://image.freepik.com/free-vector/white-rhombus-pattern_1053-249.jpg");
+		background-repeat: repeat;
 }
 .carname {
-	text-align: center;
-	font-size: 14px;
-	text-transform: uppercase;
+		text-align: center;
+		font-size: 14px;
+		text-transform: uppercase;
 }
 .detali {
-  display: inline-block;
-  text-decoration: none !important;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 5px 10px;
-  padding: 10px 15px;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  transition: 0.4s ease-in-out;
-  color: #222F30 !important;
-  border-radius: 50px;
-  border: 3px solid #222F30;
+	display: inline-block;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 5px 10px;
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	transition: 0.4s ease-in-out;
+	color: #222F30 !important;
+	border-radius: 50px;
+	border: 3px solid #222F30;
 }
 .detali:hover {
-  color: #F3E44F !important;
-  background: #637A7C;
+	color: #F3E44F !important;
+	background: #637A7C;
 }
 .carelem:hover{
-	border:6px solid #778D8F;
+		border:6px solid #778D8F;
 }
 .cars {
-	padding-left: 5%;
-	padding-right: 2%;
+		padding-left: 5%;
+		padding-right: 2%;
+		margin-top: 2%;
 }
 .carphoto{
-	text-align: center;
-	width: 100% !important;
-	heigth: 100% !important;
+		text-align: center;
+		width: 100% !important;
+		heigth: 100% !important;
 }

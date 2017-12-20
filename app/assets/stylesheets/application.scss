@@ -17,84 +17,182 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.navbar-brand {
-	text-decoration: none !important;
-	text-transform: uppercase;
+.navbar-header{
+	width: auto !important;
 }
-.authin {
-	text-decoration: none !important;
-	text-transform: uppercase;
-}
-
-body{
-	background-color: #e3e3e3;
-}
-
-.btn {
-    margin-top: 2%;
-    margin-left: 3%;
-	  background-color: #292929;
-}
-
-.btn:hover{
-	background-color: #c6c6c6;
-}
-
-.pt{
-  margin-left: 3%;
-}
-
 html {
   position: relative;
   min-height: 100%;
 }
+.navbar-brand {
+		text-decoration: none !important;
+		text-transform: uppercase;
+		margin-left: 15px !important;
+}
+.authin {
+		text-decoration: none !important;
+		text-transform: uppercase;
+}
+ .footer-top-layout {
+	background: #1c1c1c none repeat scroll 0 0;
+	color: #ffffff;
+	padding: 40px 0;
+	position: absolute;
+  bottom: 0;
+  margin-bottom: 2.5%;
+  width: 100%;
+}
+.OurBlog {
+	margin-bottom: 32px;
+	text-align: center;
+}
+.footer-top-layout h4 {
+	color: #ffffff;
+	font-size: 18px;
+	margin-bottom: 21px;
+}
+.OurBlog > p {
+	color: #888888;
+}
+.post-blog-date::after {
+	background: #ffffff none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	height: 4px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	width: 50px;
+}
+.post-blog-date {
+	padding-bottom: 25px;
+	position: relative;
+}
 
 body {
-  margin-bottom: 100px;
+	color: #666666;
+	font-family: "Open Sans",sans-serif;
+	line-height: 24px;
+	margin-bottom: 30%;
+}
+
+.footer-top-layout [class*="col-sm-"]:first-child {
+	padding: 0;
+}
+.footer-top-layout [class*="col-sm-"] {
+	border-right: 2px solid #333333;
+	padding: 0 0 0 28px;
+	
+}
+.footer-top-layout {
+	color: #ffffff;
+}
+.footer-col-item {
+	min-height: 140px;
+}
+
+address {
+	color: #545454;
 }
 
 
-.Uzh{
-  color: #e3e3e3;
-  margin-right: 50%;
-  font-size: 18px;
-  }
+.footer-top-layout [class*="col-sm-"]:last-child {
+	border-right: medium none;
+} 
+.footer-top-layout {
+	color: #ffffff;
+}
+body {
+	color: #666666;
+	font-family: "Open Sans",sans-serif;
 
-.social-icon {
-  list-style: none;
-  padding: 0;
-  margin: 9px;
+}
+.footer-top-layout h4 {
+	color: #ffffff;
+	font-size: 18px;
+	margin-bottom: 21px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color: #333333;
+	font-family: "Roboto",sans-serif;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-top: 0;
+}
+body {
+	color: #666666;
+	font-family: "Open Sans",sans-serif;
+	line-height: 24px;
+}
+.footer-col-item .item-contact a {
+	color: #545454;
+	display: inline-block;
+	margin-bottom: 7px;
+	width: 100%;
 }
 
-.social-icon li{
-  display: inline-block;
-  text-align: center;
+.footer-col-item .item-contact a .link-id {
+	color: #ffffff;
+	margin-left: 0;
+	margin-right: 6px;
+}
+.footer-col-item span {
+	margin-left: 7px;
+}
+.footer-col-item .item-contact a {
+	color: #545454;
 }
 
-.social-icon a {
-  display: block;
-  width: 33px;
-  height: 33px;
-  line-height: 33px;
-  border-radius: 25%;
-  margin-right: 30px;
+.footer-top-layout h4 {
+	color: #ffffff;
+	font-size: 18px;
+	margin-bottom: 21px;
 }
-
-.social-icon a {
-  background: rgba(255, 255, 255, 0.85); 
-  color: #000;
+.signUpNewsletter {
+	position: relative;
 }
-
-.social-icon a:hover {
-  background: rgba(255, 255, 255, 0.25); 
-  color: #fff; 
+.signUpNewsletter .gt-email {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 1px solid #666666;
+	border-radius: 0;
+	color: #ffffff;
+	height: 52px;
 }
-
-.footer {
-  position: absolute;
+.signUpNewsletter .btn-go {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border-color: #666666;
+	border-style: solid;
+	border-width: 0 0 0 1px;
+	bottom: 0;
+	color: #ffffff;
+	font-size: 16px;
+	position: absolute;
+	right: 0;
+	text-transform: uppercase;
+	top: 0;
+	width: 52px;
+}
+.footer-bottom-layout {
+	background: #222222 none repeat scroll 0 0;
+	padding: 20px 0;
+	text-align: center;
+	position: absolute;
   bottom: 0;
-  padding-top: 5px;
   width: 100%;
-  height: 60px;
-  background-color: #000;
+}
+body {
+	color: #666666;
+	font-family: "Open Sans",sans-serif;
+	line-height: 24px;
+}
+.socialMedia-footer {
+	margin-bottom: 20px;
+}
+.socialMedia-footer > a {
+	display: inline-block;
+	margin: 0 8px;
+}
+.footer-bottom-layout {
+	text-align: center;
 }
