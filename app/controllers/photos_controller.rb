@@ -4,6 +4,7 @@ class PhotosController < ApplicationController
 
   def show
     @comments = Postcomment.where(photo_id: @photo.id)
+    @images = Image.where(photo_id: @photo.id)
   end
 
   def index

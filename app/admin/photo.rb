@@ -11,7 +11,7 @@ ActiveAdmin.register Photo do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
-permit_params :category_id, :name, :photo, :text
+permit_params :category_id, :name, :photo, :text, :characteristic
 
 
 
