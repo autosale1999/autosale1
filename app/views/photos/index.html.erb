@@ -1,0 +1,9 @@
+<div class="cars">
+<% @photos.each do |photo| %>
+    <div class="carelem">
+    <p class="carphoto"><%= image_tag(photo.photo_url, width: 350, height: 197) %></p>
+    <p class="carname"><b><%= photo.category.name %></b></p>
+    <p><center><%= link_to photo.name,  post_index_path(photo.id), :class => "detali"%></center></p>
+    </div>
+<% end %>
+</div>

@@ -1,0 +1,45 @@
+// Place all the styles related to the photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.carelem{
+    width:24%;
+    display:inline-block;
+    border:6px solid black;
+}
+.carname {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.detali {
+  display: inline-block;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.4s ease-in-out;
+  color: #222F30 !important;
+  border-radius: 50px;
+  border: 3px solid #222F30;
+}
+.detali:hover {
+  color: #F3E44F !important;
+  background: #637A7C;
+}
+.carelem:hover{
+    border:6px solid #778D8F;
+}
+.cars {
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.carphoto{
+    text-align: center;
+}
