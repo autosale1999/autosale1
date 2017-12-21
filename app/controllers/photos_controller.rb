@@ -25,21 +25,6 @@ class PhotosController < ApplicationController
     redirect_to photos_path
   end
 
-  def edit
-  end
-
-  def update
-  end
-
-  def destroy
-    @photo.destroy
-    redirect_to photos_path
-  end
-
-  def vote
-    @photo = Photo.find(params[:id])
-    redirect_to photos_path
-end
 
 private
 

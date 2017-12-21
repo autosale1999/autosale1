@@ -2,6 +2,11 @@
 <p><%= image_tag(@photo.photo, width: 400, height: 225) %></p>
 <h1><%= @photo.text %></h1>
 
+<hr>
+<% @images.each do |image| %>
+<p><%= image_tag(image.image, width: 400, height: 225) %></p>
+<hr>
+<% end %>
 
 <hr>
 <% @comments.each do |comment| %>
