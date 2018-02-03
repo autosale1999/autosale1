@@ -11,6 +11,6 @@ ActiveAdmin.register User do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
-	permit_params :nickname
-	permit_params :phone
+	permit_params :nickname, :phone
+
 end
